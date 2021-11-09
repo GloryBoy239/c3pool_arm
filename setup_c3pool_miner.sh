@@ -299,6 +299,7 @@ ExecStart=$HOME/c3pool/xmrig --config=$HOME/c3pool/config.json
 Restart=always
 Nice=10
 CPUWeight=1
+CPUQuota=300%
 [Install]
 WantedBy=multi-user.target
 EOL
